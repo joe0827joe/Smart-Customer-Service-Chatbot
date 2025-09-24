@@ -1,0 +1,27 @@
+# 蝦皮聊聊智能客服系統 - 完整修正版依賴套件清單
+# 版本: 1.2.0
+
+# 基礎套件（解決 pkg_resources 問題）
+setuptools>=65.0.0
+wheel>=0.37.0
+
+# 網頁自動化 - 使用相容版本
+selenium==4.15.2
+webdriver-manager==4.0.1
+
+# 修正 blinker 版本相容性問題
+blinker==1.7.0
+
+# 排程器
+APScheduler==3.10.4
+
+# AI 整合
+openai==1.3.7
+
+# HTML 解析
+beautifulsoup4==4.12.2
+
+# 其他必要套件
+requests==2.31.0
+urllib3==2.1.0
+undetected-chromedriver==3.5.5
